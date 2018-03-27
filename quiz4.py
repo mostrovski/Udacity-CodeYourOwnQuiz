@@ -167,8 +167,8 @@ def quiz_game(level,quiz_blanks_level,correct_answers_level):
 	This function manages the game using the variables and functions defined 
 	above. It takes three arguments as input: the string 'level', the list 
 	'quiz_blanks_level', and the list 'correct_answers_level'. They are to be 
-	replaced with '..._level', 'quiz_blanks_...', and 'correct_answers_...' 
-	variables (see variables block above) depending on the level the user 
+	replaced with '..._paragraph', '..._blanks', and '..._answers' variables 
+	(see variables in the file quiz_data ) depending on the level the user 
 	chooses during the game. It doesn't return anything itself, it is basically 
 	used to call other functions in the right order. Here is the logic:     
 	'''
@@ -191,7 +191,7 @@ def quiz_game(level,quiz_blanks_level,correct_answers_level):
 		'''
 		The next line of code calls the 'quiz-problem' with the current problem 
 		and the element of the correct_answers list (corresponds to the current 
-		blank)as arguments. The variable 'answer' saves what 'quiz_problem' 
+		blank) as arguments. The variable 'answer' saves what 'quiz_problem' 
 		returns. As we know, it can happen if and only if the user's answer was 
 		correct: 
 		'''
