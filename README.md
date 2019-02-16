@@ -1,4 +1,4 @@
-# Fill-in-the-blanks quiz
+# Fill-in-the-blanks Quiz
 ## Specifications:
 - the quiz should prompt a user with a sentence containing several blanks; 
 - the user should then be asked to fill in each blank appropriately to complete the 
